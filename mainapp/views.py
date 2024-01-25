@@ -36,7 +36,7 @@ class RateViewSet(ViewSet):
         last_record = Rate.objects.all().last()
         time_difference = datetime.now(timezone.utc) - last_record.datetime
         time_difference_in_seconds = time_difference.total_seconds()
-        if time_difference_in_seconds > 60:
+        if time_difference_in_seconds > 10:
             print('request for new rate')
             rate_value = rates1()
             new_rate = Rate()
