@@ -8,7 +8,7 @@ http://127.0.0.1:8000/ get-current-usd/
 ```
 it displays a list of 10 records of the latest currency rate records in JSON format.
 
-## To Start code
+## To Start code:
 
 The code works in following way:   
 
