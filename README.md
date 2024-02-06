@@ -1,5 +1,15 @@
 # Currency Hystory REST-API, JSON (Django)
 
+## Purpose:
+The Django app retrive USD currency rate from web by request and store the rate in DB.   
+After REST-API request to adress 
+```bash
+http://127.0.0.1:8000/ get-current-usd/
+```
+it displays a list of 10 records of the latest currency rate records in JSON format.
+
+## To Start code
+
 The code works in following way:   
 
 - The task is started by running the server , for the test server run enter the command: 
