@@ -1,5 +1,4 @@
-# PhotoPoint
-The Repo was created for exam purposes  
+# Currency Hystory REST-API, JSON (Django)
 
 The code works in following way:   
 
